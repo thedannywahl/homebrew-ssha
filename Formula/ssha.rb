@@ -1,12 +1,11 @@
 class Ssha < Formula
   desc "Generate RFC 2307 SSHA password hashes."
   homepage "https://github.com/thedannywahl/ssha"
-  url "https://github.com/thedannywahl/ssha/archive/refs/tags/1.0.0.zip"
-  sha256 "2fe50558944daa3d3ae3fa060e256a25d66f1ceb57413ae538b822b36c00faa0"
+  url "https://github.com/thedannywahl/ssha/archive/refs/tags/1.0.1.zip"
+  sha256 "fc5b1a854f42f6c4189aa9b3e4b477fee34b7c78bcf6672fd61ec39d57cd3409"
   license "Apache-2.0"
 
   def install
-    system "./configure", "--disable-silent-rules", *std_configure_args
     bin.install "ssha"
   end
 
