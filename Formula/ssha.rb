@@ -1,8 +1,8 @@
 class Ssha < Formula
   desc "Generate RFC 2307 SSHA password hashes."
   homepage "https://github.com/thedannywahl/ssha"
-  url "https://github.com/thedannywahl/ssha/archive/refs/tags/1.1.1.zip"
-  sha256 "d8177ce9741f40a4a41b72ba1d83e0d92e10c6b124942dd09f2a88d74c4d4259"
+  url "https://github.com/thedannywahl/ssha/archive/refs/tags/1.1.2.zip"
+  sha256 "ee241753643267aa99b7591cb61348a61a12d204f38850593a05b30fd35ddb02"
   license "Apache-2.0"
 
   def install
